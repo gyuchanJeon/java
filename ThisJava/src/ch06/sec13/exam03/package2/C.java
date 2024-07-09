@@ -18,3 +18,4 @@ public class C {
 		a.method3(); // X private 메소드 접근 불가(컴파일 에러)
 	}
 }
+ 
