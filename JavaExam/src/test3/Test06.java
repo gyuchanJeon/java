@@ -4,6 +4,7 @@ package test3;
 이름 : 전규찬
 내용 : 싱글톤 객체와 인스턴스 객체 연습문제*/
 
+//메모리 상에서의 진행과정도 이해하면 좋음.
 class Adder {
 
 	private static Adder instance = new Adder();

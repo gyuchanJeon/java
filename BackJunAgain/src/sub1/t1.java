@@ -7,19 +7,15 @@ public class t1 {
 
 		Scanner sc = new Scanner(System.in);
 
-		int h = sc.nextInt();
-		int m = sc.nextInt();
-		
-		if (m<45 && m>0) {
-			if (h==0) {
-				System.out.println(23+" "+(15+m));
-			} else {
-				System.out.println((h-1)+" "+(15+m));
-			}
-		} else if (m>=45 && m<=59) {
-			System.out.println(h+" "+(m-45));
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+
+		if (a==b && b==c) {
+			System.out.println(10000 + 1000*a);
+		} else if (a!=b && b!=c && c!=a) {
+			System.out.println();
 		}
-		
 		
 		
 		sc.close();

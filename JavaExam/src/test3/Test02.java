@@ -9,7 +9,7 @@ class King {
 	private int year;
 
 	public King(int year) {
-		this("정조");
+		this("정조"); //생성자 호출
 		this.year = year;
 	}
 
