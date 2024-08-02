@@ -9,18 +9,11 @@ public class Test04 {
 		Scanner sc = new Scanner(System.in);
 		
 		String input = sc.next();
-		if (input.) {
-			
-		} else {
-
-		}
-		System.out.println(input);
 		
+            char character = input.charAt(0);
+            int ascii = (int) character;
 		
-		
-		
-		
-		
+		System.out.println(ascii);
 		
 		sc.close();
 	}
